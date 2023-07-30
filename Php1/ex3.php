@@ -17,7 +17,7 @@
 </head>
 <body>
     <?php
-    if (isset($_POST['dai']) && isset($_POST['rong'])){
+    if (isset($_POST['dai']) && isset($_POST['rong']) && $_POST['dai'] != "" && $_POST['rong'] != ""){
         $dai = $_POST['dai'];
         $rong = $_POST['rong'];
         $dt = $dai*$rong;
