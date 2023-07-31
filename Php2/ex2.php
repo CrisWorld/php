@@ -113,7 +113,7 @@
             ';
         }
         echo '</div>';
-        echo '<div class="banner2">* Nổi bật nhất *</div>';
+        echo '<div class="banner2">* Sản phẩm mới nhất *</div>';
         echo '<div class="container1">';
         foreach ($products['new'] as $key => $product) {
             echo '
